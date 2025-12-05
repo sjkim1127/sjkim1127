@@ -11,21 +11,9 @@ I enjoy architecting hybrid systems that orchestrate complex security tools like
 
 ---
 
-## 🛠️ Key Projects
-
-### 🛡️ [NexusCore_MCP](https://github.com/sjkim1127/NexusCore_MCP)
-**Dynamic Analysis Platform & Agentic Workflow Engine**
-An MCP server designed to automate dynamic malware analysis by orchestrating various runtime tools.
-- **Hybrid Architecture:** Implemented gRPC/WebSocket communication between Linux MCP Server and Windows Analysis Agent to overcome OS limitations.
-- **Agentic Workflow:** Applied 'Planning' and 'Reflection' patterns to create autonomous analysis sessions, minimizing AI hallucinations.
-- **Tech Stack:** Python (Asyncio), Frida, Pymem, Tshark, Docker Compose
-
 ### 👻 [Reversecore_MCP](https://github.com/sjkim1127/Reversecore_MCP)
 **Static Analysis & Neural Decompilation Tool**
 A static analysis toolset that leverages AI to enhance binary understanding and detection.
-- **Neural Decompiler:** Improves code readability by inferring variable names and structures from assembly patterns using LLMs.
-- **Automated Defense:** Implements a pipeline that detects threats (Ghost Trace) and automatically generates YARA rules.
-- **Tech Stack:** Python, Radare2, Ghidra, Capstone, LIEF
 
 ---
 

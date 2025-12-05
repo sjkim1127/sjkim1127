@@ -1,5 +1,7 @@
 # Hi, I'm Sungjoo Kim 👋
 
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=github)](https://github.com/sponsors/sjkim1127)
+
 ### Software Engineer | Security & AI
 
 I am a developer focused on **Automated Security Analysis** and **Agentic AI Workflows**.

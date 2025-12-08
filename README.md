@@ -2,7 +2,7 @@
 
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=github)](https://github.com/sponsors/sjkim1127)
 
-### Software Architect | Security & AI Toolsmith
+### Software Architect
 
 > **"I don't just write code; I craft tools that empower people."**
 

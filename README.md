@@ -2,37 +2,37 @@
 
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=github)](https://github.com/sponsors/sjkim1127)
 
-### Software Engineer | Security & AI
+### Software Architect | Security & AI Toolsmith
 
-I am a developer focused on **Automated Security Analysis** and **Agentic AI Workflows**.
-My primary interest lies in building scalable systems that bridge the gap between static/dynamic analysis tools and Large Language Models (LLMs).
+> **"I don't just write code; I craft tools that empower people."**
 
-I enjoy architecting hybrid systems that orchestrate complex security tools like Frida, Radare2, and GDB to automate manual analysis tasks.
+I define myself as an **Architect**. My focus is not on the act of coding itself, but on creating meaningful **tools** that users can rely on.
+
+I am **agnostic to technology stacks**. I believe that the right language builds the right tool—whether it's Rust for performance or Python for flexibility. I build what I envision, actively leveraging **AI** to transcend the limits of traditional engineering.
 
 ---
+
+### 🛠️ Philosophy & Architecture
+
+- **Toolsmith Mindset**: I build solutions that bridge the gap between complex low-level systems and human usability.
+- **Polyglot Engineering**: Unbound by specific frameworks. I use the best tool for the job to build scalable, high-performance systems.
+- **AI-Native Development**: I treat AI not just as a feature, but as a core partner in my development workflow to accelerate innovation.
+
+---
+
+### 🚀 Featured Projects
+
+### ⚛️ [Fission](https://github.com/sjkim1127/Fission)
+**The Unified Workbench for Hybrid Analysis**
+A next-generation hybrid dynamic analysis platform that unifies the best features of **x64dbg**, **Frida**, **Radare2**, and **Ghidra** into a single Rust-powered binary. It serves as the central command center for both static and dynamic engineering tasks.
 
 ### 👻 [Reversecore_MCP](https://github.com/sjkim1127/Reversecore_MCP)
-**Static Analysis & Neural Decompilation Tool**
-A static analysis toolset that leverages AI to enhance binary understanding and detection.
+**The Intelligence Layer for Binary Analysis**
+An AI-driven static analysis toolset that leverages the **Model Context Protocol (MCP)** to enhance binary understanding and automate threat detection. It acts as the "Brain," handling logic, pattern matching, and AI reasoning.
 
----
-
-## 💻 Technical Skills
-
-| Domain | Stack |
-|--------|-------|
-| **Languages** | Python, C/C++, JavaScript, Assembly (x86/64) |
-| **Security** | Reverse Engineering, Kernel Hooking (ptrace), Windows API, Memory Forensics |
-| **System** | Docker, Linux System Programming, Network Protocol Analysis |
-| **AI/LLM** | MCP (Model Context Protocol), Agentic Design Patterns, Prompt Engineering |
-
----
-
-## 🚀 Experience & Philosophy
-
-- **System Architecture**: Experienced in designing distributed systems using microservices (Docker) and handling inter-process communication.
-- **Problem Solving**: Focus on solving practical cybersecurity challenges by automating repetitive tasks with AI agents.
-- **Rapid Prototyping**: Capable of quickly building and deploying complex full-stack solutions from scratch.
+### 🦾 [Nexuscore_MCP](https://github.com/sjkim1127/Nexuscore_MCP)
+**The Kinetic Engine for Dynamic Instrumentation**
+An AI-powered MCP server specialized for dynamic malware analysis. It orchestrates **Frida** instrumentation, session-based debugging, and 46+ security tools to perform real-time memory manipulation and behavioral analysis.
 
 ---
 

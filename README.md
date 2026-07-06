@@ -4,6 +4,8 @@ Reverse Engineering · Binary Analysis · Systems Tooling · AI-Assisted Securit
 
 I build tools that turn low-level program behavior into structured, traceable, and useful analysis.
 
+LinkedIn: [Sung Joo Kim](https://www.linkedin.com/in/sung-joo-kim-718a93303/?skipRedirect=true)
+
 ---
 
 ## Identity

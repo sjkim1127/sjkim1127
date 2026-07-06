@@ -1,0 +1,82 @@
+<svg width="960" height="460" viewBox="0 0 960 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Selected projects</title>
+  <desc id="desc">Selected GitHub projects by sjkim1127: Fission, Reversecore MCP, and fission-benchmark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="fission" x1="0" y1="0" x2="310" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F97316" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#58A6FF" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="mcp" x1="0" y1="0" x2="310" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A855F7" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#58A6FF" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="bench" x1="0" y1="0" x2="310" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#58A6FF" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000000" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="460" rx="24" fill="url(#bg)"/>
+  <rect x="1" y="1" width="958" height="458" rx="23" stroke="#30363D"/>
+
+  <text x="42" y="62" fill="#F0F6FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">Selected Projects</text>
+  <text x="42" y="92" fill="#8B949E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Reverse engineering systems, AI-assisted security workflows, and quality infrastructure.</text>
+
+  <g transform="translate(42 124)" filter="url(#shadow)">
+    <rect width="270" height="286" rx="20" fill="#161B22" stroke="#30363D"/>
+    <rect width="270" height="106" rx="20" fill="url(#fission)"/>
+    <text x="22" y="48" fill="#F0F6FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="900">Fission</text>
+    <text x="22" y="76" fill="#F97316" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">decompiler workspace</text>
+    <text x="22" y="136" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Rust-native binary decompilation</text>
+    <text x="22" y="160" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">workspace with owned IR,</text>
+    <text x="22" y="184" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">structuring, rendering, and</text>
+    <text x="22" y="208" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">quality gates.</text>
+    <rect x="22" y="238" width="62" height="26" rx="13" fill="#0D1117" stroke="#30363D"/>
+    <text x="39" y="256" fill="#F97316" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">Rust</text>
+    <rect x="94" y="238" width="48" height="26" rx="13" fill="#0D1117" stroke="#30363D"/>
+    <text x="110" y="256" fill="#58A6FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">IR</text>
+    <rect x="152" y="238" width="88" height="26" rx="13" fill="#0D1117" stroke="#30363D"/>
+    <text x="169" y="256" fill="#A855F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">P-Code</text>
+  </g>
+
+  <g transform="translate(345 124)" filter="url(#shadow)">
+    <rect width="270" height="286" rx="20" fill="#161B22" stroke="#30363D"/>
+    <rect width="270" height="106" rx="20" fill="url(#mcp)"/>
+    <text x="22" y="48" fill="#F0F6FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="900">Reversecore</text>
+    <text x="22" y="76" fill="#A855F7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">MCP security server</text>
+    <text x="22" y="136" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">AI-accessible reverse engineering</text>
+    <text x="22" y="160" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">and security analysis system for</text>
+    <text x="22" y="184" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">malware triage, SAST, forensics,</text>
+    <text x="22" y="208" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">and reporting workflows.</text>
+    <rect x="22" y="238" width="70" height="26" rx="13" fill="#0D1117" stroke="#30363D"/>
+    <text x="39" y="256" fill="#58A6FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">MCP</text>
+    <rect x="102" y="238" width="76" height="26" rx="13" fill="#0D1117" stroke="#30363D"/>
+    <text x="117" y="256" fill="#A855F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">Python</text>
+    <rect x="188" y="238" width="58" height="26" rx="13" fill="#0D1117" stroke="#30363D"/>
+    <text x="204" y="256" fill="#22C55E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">RE</text>
+  </g>
+
+  <g transform="translate(648 124)" filter="url(#shadow)">
+    <rect width="270" height="286" rx="20" fill="#161B22" stroke="#30363D"/>
+    <rect width="270" height="106" rx="20" fill="url(#bench)"/>
+    <text x="22" y="48" fill="#F0F6FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="900">Benchmarks</text>
+    <text x="22" y="76" fill="#22C55E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">evaluation support</text>
+    <text x="22" y="136" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Quality and evaluation support</text>
+    <text x="22" y="160" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">around decompiler behavior,</text>
+    <text x="22" y="184" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">regression checks, and practical</text>
+    <text x="22" y="208" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">analysis quality loops.</text>
+    <rect x="22" y="238" width="58" height="26" rx="13" fill="#0D1117" stroke="#30363D"/>
+    <text x="38" y="256" fill="#22C55E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">QA</text>
+    <rect x="90" y="238" width="92" height="26" rx="13" fill="#0D1117" stroke="#30363D"/>
+    <text x="105" y="256" fill="#58A6FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">Corpus</text>
+    <rect x="192" y="238" width="58" height="26" rx="13" fill="#0D1117" stroke="#30363D"/>
+    <text x="207" y="256" fill="#F97316" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">CI</text>
+  </g>
+</svg>

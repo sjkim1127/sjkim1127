@@ -77,6 +77,25 @@ I enjoy projects where architecture matters: compilers, decompilers, program ana
 
 ---
 
+## Recent commits
+
+<!-- RECENT-COMMITS:START -->
+| Time | Repository | Commit | Message |
+|---|---|---|---|
+| 2026-07-06 15:41 KST | [sjkim1127/Fission](https://github.com/sjkim1127/Fission) | [03df601](https://github.com/sjkim1127/Fission/commit/03df601c400db29aa19320099e772f6ec2687f7f) | feat(emulator): Fix register space lookup and complete HLE Dispatcher |
+| 2026-07-06 15:26 KST | [sjkim1127/Eon](https://github.com/sjkim1127/Eon) | [ac3ddd4](https://github.com/sjkim1127/Eon/commit/ac3ddd4a15950d3d6e3ba91645ca4ce0ec95ecfc) | i18n: High-quality translations for English, Chinese, and Russian |
+| 2026-07-06 15:16 KST | [sjkim1127/Eon](https://github.com/sjkim1127/Eon) | [39e09fa](https://github.com/sjkim1127/Eon/commit/39e09fadda0e84e28dd0049548a6926f3a126730) | refactor(ui): extract and map all remaining korean strings to TK in phase 2 (iching, western, hd, zwds) |
+| 2026-07-06 15:14 KST | [sjkim1127/Fission](https://github.com/sjkim1127/Fission) | [78c6167](https://github.com/sjkim1127/Fission/commit/78c6167f498d06a53090b9f642917bdddc137549) | fix: integrate emulator backend to CLI and fix trait abstraction for debug session |
+| 2026-07-06 15:07 KST | [sjkim1127/Eon](https://github.com/sjkim1127/Eon) | [6e99845](https://github.com/sjkim1127/Eon/commit/6e998450e55ac63bd11987c91ab5fa9bf05db595) | i18n: Migrate Qimen, Simulation, AI and Strength tabs to TK enum |
+| 2026-07-06 15:04 KST | [sjkim1127/Fission](https://github.com/sjkim1127/Fission) | [9c9c386](https://github.com/sjkim1127/Fission/commit/9c9c38633715742993847dc14d4ce84ca0749525) | feat: complete P-Code Evaluator ops and integrate loader mapping |
+| 2026-07-06 14:57 KST | [sjkim1127/Fission](https://github.com/sjkim1127/Fission) | [e590756](https://github.com/sjkim1127/Fission/commit/e5907562cda65a08c9aafde2dff2842f57351ea7) | feat(debug): Integrate EmulatorBackend into DebugSession and add --emulator CLI flag |
+| 2026-07-06 14:45 KST | [sjkim1127/Reversecore_MCP](https://github.com/sjkim1127/Reversecore_MCP) | [3d0021e](https://github.com/sjkim1127/Reversecore_MCP/commit/3d0021e0a502555232bec57a297588f3111ad33e) | feat(report): implement CSAF VEX report generator |
+
+<!-- Last updated: 2026-07-06 15:55 KST -->
+<!-- RECENT-COMMITS:END -->
+
+---
+
 ## Direction
 
 I'm currently pushing deeper into decompiler correctness, binary semantics, automated analysis quality, and AI-assisted reverse engineering workflows.

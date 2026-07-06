@@ -89,6 +89,6 @@ The goal is simple:
 
 <div align="center">
 
-![Sung Joo's GitHub stats](https://github-readme-stats.vercel.app/api?username=sjkim1127&show_icons=true&hide_border=true)
+<img src="./assets/github-profile.svg" alt="Sung Joo Kim GitHub profile card" width="860" />
 
 </div>

@@ -40,6 +40,8 @@ binary → loader → decoder → IR → analysis → structure → readable out
 |---|---|
 | [Fission](https://github.com/sjkim1127/Fission) | Rust-native reverse-engineering and decompiler workspace |
 | [Reversecore MCP](https://github.com/sjkim1127/Reversecore_MCP) | AI-powered reverse engineering and security analysis through MCP |
+| [fossil-mcp](https://github.com/sjkim1127/fossil-mcp) | Local MCP server for source-grounded implementation search across open-source repositories |
+| [Eon](https://github.com/sjkim1127/Eon) | Rust-native platform for structured analysis across multiple traditional astrology and divination systems |
 | [fission-benchmark](https://github.com/sjkim1127/fission-benchmark) | Benchmark and evaluation support around Fission |
 
 ---

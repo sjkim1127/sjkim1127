@@ -1,20 +1,22 @@
 # Sung Joo Kim
 
-Reverse Engineering · Binary Analysis · Systems Tooling · AI-Assisted Security Workflows
+Reverse Engineering · Decompiler Systems · Systems Tooling · AI-Native Security
 
-I build tools that turn low-level program behavior into structured, traceable, and useful analysis.
+I build Rust-first tools that turn low-level program behavior into structured, traceable, and useful analysis.
 
-LinkedIn: [Sung Joo Kim](https://www.linkedin.com/in/sung-joo-kim-718a93303/?skipRedirect=true)
+[LinkedIn](https://www.linkedin.com/in/sung-joo-kim-718a93303/)
 
 ---
 
-## Identity
+## Areas of focus
 
-I'm an independent developer focused on reverse engineering infrastructure, binary analysis, decompiler pipelines, and AI-assisted security tooling.
-
-My work sits at the intersection of reverse engineering, systems engineering, security automation, and AI-native developer tooling.
-
-I care about tools that are not just impressive in demos, but mechanically traceable, semantically defensible, and useful under real analyst workflows.
+| Area | Focus |
+|---|---|
+| Reverse engineering | Binary loading, disassembly, decompilation, and semantic recovery |
+| Decompiler systems | IR design, P-Code/NIR/HIR-style pipelines, structuring, and rendering |
+| Security automation | Static and dynamic analysis, malware triage, vulnerability research, and forensics |
+| AI-native tooling | MCP servers, agent workflows, and source-grounded technical interfaces |
+| Systems engineering | Rust workspaces, architecture boundaries, CI, and quality gates |
 
 ```text
 binary → loader → decoder → IR → analysis → structure → readable output → report
@@ -22,27 +24,20 @@ binary → loader → decoder → IR → analysis → structure → readable out
 
 ---
 
-## Current operating area
+## Featured systems
 
-| Area | Focus |
+| Project | Role |
 |---|---|
-| Reverse engineering | Disassembly, decompilation, binary loading, semantic recovery |
-| Decompiler systems | IR design, P-Code/NIR/HIR-style pipelines, structuring, rendering |
-| Security automation | Static/dynamic analysis, malware triage, vulnerability research, forensics |
-| AI-native tooling | MCP servers, agent workflows, natural-language interfaces for technical systems |
-| Systems engineering | Rust workspaces, architecture boundaries, CI, quality gates |
+| **[Fission](https://github.com/sjkim1127/Fission)** | **Primary project** — Rust-native decompiler and reverse-engineering workspace |
+| [fission-benchmark](https://github.com/sjkim1127/fission-benchmark) | Reproducible benchmark and evaluation infrastructure for Fission |
+| [Reversecore MCP](https://github.com/sjkim1127/Reversecore_MCP) | MCP interface for AI-assisted reverse-engineering and security workflows |
+| [fossil-mcp](https://github.com/sjkim1127/fossil-mcp) | Source-grounded implementation search across open-source repositories for AI coding agents |
 
----
+## Experimental systems
 
-## Selected projects
-
-| Project | Description |
+| Project | Focus |
 |---|---|
-| [Fission](https://github.com/sjkim1127/Fission) | Rust-native reverse-engineering and decompiler workspace |
-| [Reversecore MCP](https://github.com/sjkim1127/Reversecore_MCP) | AI-powered reverse engineering and security analysis through MCP |
-| [fossil-mcp](https://github.com/sjkim1127/fossil-mcp) | Local MCP server for source-grounded implementation search across open-source repositories |
-| [Eon](https://github.com/sjkim1127/Eon) | Rust-native platform for structured analysis across multiple traditional astrology and divination systems |
-| [fission-benchmark](https://github.com/sjkim1127/fission-benchmark) | Benchmark and evaluation support around Fission |
+| [Eon](https://github.com/sjkim1127/Eon) | Typed Rust platform for deterministic calculation and comparison across traditional astrology and divination systems |
 
 ---
 
@@ -52,13 +47,11 @@ binary → loader → decoder → IR → analysis → structure → readable out
 Core:        Rust · Python · Linux · GitHub Actions
 Reverse:     loaders · disassemblers · decompilers · IR · P-Code · structuring
 Security:    malware triage · SAST · vulnerability research · forensics · reporting
-AI tooling:  MCP · agent workflows · natural-language analysis interfaces
+AI tooling:  MCP · agent workflows · source-grounded analysis interfaces
 ```
 
 ---
 
-## Working principle
+## Current direction
 
-Build tools that help analysts understand complex binaries faster, without sacrificing evidence, control, or technical rigor.
-
-I am currently pushing deeper into decompiler correctness, binary semantics, automated analysis quality, and AI-assisted reverse engineering workflows.
+I am pushing deeper into decompiler correctness, binary semantics, reproducible evaluation, and AI-assisted reverse-engineering workflows without sacrificing evidence, control, or technical rigor.

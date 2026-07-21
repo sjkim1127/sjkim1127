@@ -4,7 +4,7 @@ Reverse Engineering · Decompiler Systems · Systems Tooling · AI-Native Securi
 
 I build Rust-first tools that turn low-level program behavior into structured, traceable, and useful analysis.
 
-[LinkedIn](https://www.linkedin.com/in/sung-joo-kim-718a93303/)
+[LinkedIn](https://www.linkedin.com/in/sung-joo-kim-718a93303/) · [Explore Fission](https://github.com/sjkim1127/Fission) · [Watch Dioxuscut demo](https://github.com/sjkim1127/Dioxuscut/releases/download/v0.1.0/showcase.mp4)
 
 ---
 
@@ -32,7 +32,7 @@ binary → loader → decoder → IR → analysis → structure → readable out
 | [fission-benchmark](https://github.com/sjkim1127/fission-benchmark) | Reproducible benchmark and evaluation infrastructure for Fission |
 | [Reversecore MCP](https://github.com/sjkim1127/Reversecore_MCP) | MCP interface for AI-assisted reverse-engineering and security workflows |
 | [fossil-mcp](https://github.com/sjkim1127/fossil-mcp) | Source-grounded implementation search across open-source repositories for AI coding agents |
-| [Dioxuscut](https://github.com/sjkim1127/Dioxuscut) | Browser-free, code-driven video creation framework built with Rust and Dioxus |
+| [Dioxuscut](https://github.com/sjkim1127/Dioxuscut) | Browser-free programmatic video framework for Rust and Dioxus, with native CPU/GPU rendering |
 
 ## Experimental systems
 
@@ -42,17 +42,10 @@ binary → loader → decoder → IR → analysis → structure → readable out
 
 ---
 
-## Stack map
+## Current work
 
-```text
-Core:        Rust · Python · Linux · GitHub Actions
-Reverse:     loaders · disassemblers · decompilers · IR · P-Code · structuring
-Security:    malware triage · SAST · vulnerability research · forensics · reporting
-AI tooling:  MCP · agent workflows · source-grounded analysis interfaces
-```
+- Improving decompiler correctness, binary semantics, and IR design in Fission
+- Building reproducible evaluation infrastructure for decompiler output
+- Developing native Rust systems that integrate cleanly with AI-agent workflows
 
----
-
-## Current direction
-
-I am pushing deeper into decompiler correctness, binary semantics, reproducible evaluation, and AI-assisted reverse-engineering workflows without sacrificing evidence, control, or technical rigor.
+Core stack: **Rust · Python · Linux · GitHub Actions**

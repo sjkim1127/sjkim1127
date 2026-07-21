@@ -4,7 +4,7 @@ Reverse Engineering · Decompiler Systems · Systems Tooling · AI-Native Securi
 
 I build Rust-first tools that turn low-level program behavior into structured, traceable, and useful analysis.
 
-[LinkedIn](https://www.linkedin.com/in/sung-joo-kim-718a93303/) · [Explore Fission](https://github.com/sjkim1127/Fission) · [Watch Dioxuscut demo](https://github.com/sjkim1127/Dioxuscut/releases/download/v0.1.0/showcase.mp4)
+[LinkedIn](https://www.linkedin.com/in/sung-joo-kim-718a93303/)
 
 ---
 

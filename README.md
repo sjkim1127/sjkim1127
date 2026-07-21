@@ -32,6 +32,7 @@ binary → loader → decoder → IR → analysis → structure → readable out
 | [fission-benchmark](https://github.com/sjkim1127/fission-benchmark) | Reproducible benchmark and evaluation infrastructure for Fission |
 | [Reversecore MCP](https://github.com/sjkim1127/Reversecore_MCP) | MCP interface for AI-assisted reverse-engineering and security workflows |
 | [fossil-mcp](https://github.com/sjkim1127/fossil-mcp) | Source-grounded implementation search across open-source repositories for AI coding agents |
+| [Dioxuscut](https://github.com/sjkim1127/Dioxuscut) | Browser-free, code-driven video creation framework built with Rust and Dioxus |
 
 ## Experimental systems
 

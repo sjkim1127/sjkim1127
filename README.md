@@ -14,7 +14,7 @@ I build low-level systems for binary analysis, decompilation, reverse engineerin
 |---|---|
 | **[Fission](https://github.com/fission-systems/Fission)** | My primary project — a Rust-native reverse-engineering workspace and decompiler using Sleigh/P-Code with its own NIR/HIR pipeline, aimed ultimately at rebuilding working programs from binaries. |
 | **[Reversecore MCP](https://github.com/sjkim1127/Reversecore_MCP)** | An MCP server that exposes reverse-engineering, malware-analysis, vulnerability-research, and forensic tooling to AI agents through structured interfaces. |
-| **[EverPlanet Reverse Engineering](https://github.com/sjkim1127/Everplanet_Reverse_Engineering)** | Static and dynamic reverse engineering of the discontinued EverPlanet client, including its network protocol, resource formats, authentication flow, and local server-emulation experiments. |
+| **[Kymion](https://github.com/sjkim1127/Kymion)** | An agent-first digital audio workstation built in Rust and WebAssembly, with a browser-based DAW, real-time audio playback, MIDI/audio editing, vocal synthesis and tuning, and a JSON-driven CLI. |
 | **[Reforge MCP](https://github.com/sjkim1127/reforge-mcp)** | Experimental agent-oriented pipeline for analyzing existing C/C++/Java/Python/Go projects, porting them to Rust, and validating behavior against the original. |
 | **[Rust Motion](https://github.com/sjkim1127/rust-motion)** | Browser-free programmatic video rendering in Rust with a native scene graph, CPU/GPU rasterization, FFmpeg pipelines, and optional Dioxus authoring. |
 | **[Eon](https://github.com/sjkim1127/Eon)** | A Rust/Dioxus workspace that models several traditional astrology and divination systems as explicit, reproducible rule and calculation engines. |

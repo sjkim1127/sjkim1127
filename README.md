@@ -1,8 +1,8 @@
 # Sung Joo Kim
 
-**Decompiler Systems · Reverse Engineering · Program Analysis · Rust Systems**
+**Decompiler Engineering · Reverse Engineering · Agent Infrastructure · Rust Systems**
 
-I build low-level systems for binary analysis, decompilation, reverse engineering, and automation — mostly in Rust.
+I build systems for program analysis, reverse engineering, and AI-agent automation, primarily in Rust. My work spans semantics-aware decompilation and security tooling as well as headless video rendering, WebAssembly audio software, and deterministic rule engines.
 
 [LinkedIn](https://www.linkedin.com/in/sung-joo-kim-718a93303/)
 
@@ -12,19 +12,19 @@ I build low-level systems for binary analysis, decompilation, reverse engineerin
 
 | Project | What it is |
 |---|---|
-| **[Fission](https://github.com/fission-systems/Fission)** | My primary project — a Rust-native reverse-engineering workspace and decompiler using Sleigh/P-Code with its own NIR/HIR pipeline, aimed ultimately at rebuilding working programs from binaries. |
-| **[Reversecore MCP](https://github.com/sjkim1127/Reversecore_MCP)** | An MCP server that exposes reverse-engineering, malware-analysis, vulnerability-research, and forensic tooling to AI agents through structured interfaces. |
-| **[Kymion](https://github.com/sjkim1127/Kymion)** | An agent-first digital audio workstation built in Rust and WebAssembly, with a browser-based DAW, real-time audio playback, MIDI/audio editing, vocal synthesis and tuning, and a JSON-driven CLI. |
-| **[Reforge MCP](https://github.com/sjkim1127/reforge-mcp)** | Experimental agent-oriented pipeline for analyzing existing C/C++/Java/Python/Go projects, porting them to Rust, and validating behavior against the original. |
-| **[Rust Motion](https://github.com/sjkim1127/rust-motion)** | Browser-free programmatic video rendering in Rust with a native scene graph, CPU/GPU rasterization, FFmpeg pipelines, and optional Dioxus authoring. |
-| **[Eon](https://github.com/sjkim1127/Eon)** | A Rust/Dioxus workspace that models several traditional astrology and divination systems as explicit, reproducible rule and calculation engines. |
+| **[Fission](https://github.com/fission-systems/Fission)** | My primary project: a Rust-native reverse-engineering workspace and decompiler with Sleigh/P-Code lifting, semantics-preserving NIR, readable HIR, CFG structuring, type recovery, and execution-differential validation. The long-term goal is to reconstruct buildable, working programs from binaries. |
+| **[Reversecore MCP](https://github.com/sjkim1127/Reversecore_MCP)** | An MCP server that connects AI agents to local tools for binary reverse engineering, malware triage, vulnerability research, crash analysis, and digital forensics. It emphasizes structured, byte-level evidence, isolated execution, and context-efficient tool routing. |
+| **[Kymion](https://github.com/sjkim1127/Kymion)** | An agent-first digital audio workstation built with Rust and WebAssembly. It combines a browser-based DAW, real-time AudioWorklet playback, MIDI and non-destructive audio editing, DSP effects, vocal synthesis and tuning, and a JSON-command CLI sharing the same engine. |
+| **[Reforge MCP](https://github.com/sjkim1127/reforge-mcp)** | An early-stage MCP infrastructure project for migrating C/C++/Java/Python/Go software to Rust. It currently supports repository indexing, source navigation, and persistent planning state; semantic analysis, automated porting, and behavioral verification are planned. |
+| **[Rust Motion](https://github.com/sjkim1127/rust-motion)** | A browser-free programmatic video rendering engine with deterministic scene representation, parallel CPU/GPU rasterization, FFmpeg encoding, a Remotion-oriented TypeScript SDK, Python bindings, WebAssembly playback, and an agent-friendly CLI. |
+| **[Eon](https://github.com/sjkim1127/Eon)** | An experimental pure-Rust engine for deterministic calculations across Saju, Vedic and Western astrology, Zi Wei Dou Shu, Human Design, Qi Men Dun Jia, and numerology, with cross-system synthesis, structured CLI outputs, and an MCP server for AI agents. |
 
 ---
 
 ## Main interests
 
-**Decompilers · Binary Semantics · Intermediate Representations · Control/Data Flow · Binary Formats · Reverse Engineering · AI-assisted Tooling · Systems Engineering**
+**Decompiler Design · Binary Semantics · Intermediate Representations · Control/Data Flow · Binary Formats · Reverse Engineering · AI-Agent Tooling · Systems Engineering · Audio/Video Systems**
 
 ### Core stack
 
-**Rust · C/C++ · Python · Linux · DWARF · ELF/PE · Sleigh/P-Code · GitHub Actions**
+**Rust · C/C++ · Python · TypeScript · Linux · WebAssembly · ELF/PE · DWARF · Sleigh/P-Code · MCP · FFmpeg · GitHub Actions**

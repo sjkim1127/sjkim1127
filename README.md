@@ -21,6 +21,29 @@ I build systems for program analysis, reverse engineering, and AI-agent automati
 
 ---
 
+## Open-source contributions
+
+I contribute to open-source decompilation, program-analysis, and developer-tooling projects. A selection of my pull requests:
+
+### Merged contributions
+
+| Project | Contributions |
+|---|---|
+| **[Kuna](https://github.com/Noelo-Lab/kuna)** | Exposed instruction-level raw P-Code ([#1316](https://github.com/Noelo-Lab/kuna/pull/1316)), improved decompiler diagnostics ([#639](https://github.com/Noelo-Lab/kuna/pull/639)), and expanded FID candidate inspection and evidence-based renaming ([#1547](https://github.com/Noelo-Lab/kuna/pull/1547), [#1549](https://github.com/Noelo-Lab/kuna/pull/1549), [#1550](https://github.com/Noelo-Lab/kuna/pull/1550)). |
+| **[DecBench](https://github.com/Noelo-Lab/decbench)** | Added a bounded PDB/MSF stream reader ([#116](https://github.com/Noelo-Lab/decbench/pull/116)) and a standalone Mach-O DWARF reader ([#115](https://github.com/Noelo-Lab/decbench/pull/115)). |
+| **[rust-joern](https://github.com/Noelo-Lab/rust-joern)** | Improved C++ parsing and control-flow recovery for templates, constructor initialization, and range-for statements ([#3](https://github.com/Noelo-Lab/rust-joern/pull/3), [#5](https://github.com/Noelo-Lab/rust-joern/pull/5), [#15](https://github.com/Noelo-Lab/rust-joern/pull/15), [#18](https://github.com/Noelo-Lab/rust-joern/pull/18)). |
+| **[Remotion](https://github.com/remotion-dev/remotion)** | Added **Copy context for agents** to folder menus in Remotion Studio ([#11277](https://github.com/remotion-dev/remotion/pull/11277)). |
+
+### Selected PRs under review (November 2026)
+
+- **[Ghidra #9641](https://github.com/NationalSecurityAgency/ghidra/pull/9641)** — Proposed a fix for overlapping input Varnodes in the decompiler's parameter handling.
+- **[rev.ng #630](https://github.com/revng/revng/pull/630)** — Proposed more robust PE/COFF loading when a Load Config Table RVA falls outside sections.
+- **[Kuna #1714](https://github.com/Noelo-Lab/kuna/pull/1714)** — Proposed a design for differential semantic verification using Z3, QEMU, and Kuna.
+
+[All pull requests](https://github.com/pulls?q=is%3Apr+author%3Asjkim1127)
+
+---
+
 ## Main interests
 
 **Decompiler Design · Binary Semantics · Intermediate Representations · Control/Data Flow · Binary Formats · Reverse Engineering · AI-Agent Tooling · Systems Engineering · Audio/Video Systems**

@@ -34,12 +34,6 @@ I contribute to open-source decompilation, program-analysis, and developer-tooli
 | **[rust-joern](https://github.com/Noelo-Lab/rust-joern)** | Improved C++ parsing and control-flow recovery for templates, constructor initialization, and range-for statements ([#3](https://github.com/Noelo-Lab/rust-joern/pull/3), [#5](https://github.com/Noelo-Lab/rust-joern/pull/5), [#15](https://github.com/Noelo-Lab/rust-joern/pull/15), [#18](https://github.com/Noelo-Lab/rust-joern/pull/18)). |
 | **[Remotion](https://github.com/remotion-dev/remotion)** | Added **Copy context for agents** to folder menus in Remotion Studio ([#11277](https://github.com/remotion-dev/remotion/pull/11277)). |
 
-### Selected PRs under review (November 2026)
-
-- **[Ghidra #9641](https://github.com/NationalSecurityAgency/ghidra/pull/9641)** — Proposed a fix for overlapping input Varnodes in the decompiler's parameter handling.
-- **[rev.ng #630](https://github.com/revng/revng/pull/630)** — Proposed more robust PE/COFF loading when a Load Config Table RVA falls outside sections.
-- **[Kuna #1714](https://github.com/Noelo-Lab/kuna/pull/1714)** — Proposed a design for differential semantic verification using Z3, QEMU, and Kuna.
-
 [All pull requests](https://github.com/pulls?q=is%3Apr+author%3Asjkim1127)
 
 ---

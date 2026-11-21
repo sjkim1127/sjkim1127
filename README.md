@@ -12,7 +12,7 @@ I build systems for program analysis, reverse engineering, and AI-agent automati
 
 | Project | What it is |
 |---|---|
-| **[Fission](https://github.com/fission-systems/Fission)** | My primary project: a Rust-native reverse-engineering workspace and decompiler with Sleigh/P-Code lifting, semantics-preserving NIR, readable HIR, CFG structuring, type recovery, and execution-differential validation. The long-term goal is to reconstruct buildable, working programs from binaries. |
+| **[Fission](https://github.com/fission-systems/Fission)** | My primary project: a pure-Rust reverse-engineering workspace and decompiler ([DecBench](https://github.com/Noelo-Lab/decbench)-evaluated, `v0.3.0`) with Sleigh/P-Code lifting, semantics-preserving NIR, readable HIR, CFG structuring, type recovery, a built-in SMT solver, and execution-differential validation. The long-term goal is to reconstruct buildable, working programs from binaries. |
 | **[Reversecore MCP](https://github.com/sjkim1127/Reversecore_MCP)** | An MCP server that connects AI agents to local tools for binary reverse engineering, malware triage, vulnerability research, crash analysis, and digital forensics. It emphasizes structured, byte-level evidence, isolated execution, and context-efficient tool routing. |
 | **[Kymion](https://github.com/sjkim1127/Kymion)** | An agent-first digital audio workstation built with Rust and WebAssembly. It combines a browser-based DAW, real-time AudioWorklet playback, MIDI and non-destructive audio editing, DSP effects, vocal synthesis and tuning, and a JSON-command CLI sharing the same engine. |
 | **[Reforge MCP](https://github.com/sjkim1127/reforge-mcp)** | An early-stage MCP infrastructure project for migrating C/C++/Java/Python/Go software to Rust. It currently supports repository indexing, source navigation, and persistent planning state; semantic analysis, automated porting, and behavioral verification are planned. |
@@ -34,6 +34,13 @@ I contribute to open-source decompilation, program-analysis, and developer-tooli
 | **[rust-joern](https://github.com/Noelo-Lab/rust-joern)** | Improved C++ parsing and control-flow recovery for templates, constructor initialization, and range-for statements ([#3](https://github.com/Noelo-Lab/rust-joern/pull/3), [#5](https://github.com/Noelo-Lab/rust-joern/pull/5), [#15](https://github.com/Noelo-Lab/rust-joern/pull/15), [#18](https://github.com/Noelo-Lab/rust-joern/pull/18)). |
 | **[NVIDIA / yaml-sigil-rs](https://github.com/NVIDIA/yaml-sigil-rs)** | Fixed quoted and escaped YAML signature-document key normalization, with regression tests ([original #123](https://github.com/NVIDIA/yaml-sigil-rs/pull/123)); NVIDIA carried the change into [merged #131](https://github.com/NVIDIA/yaml-sigil-rs/pull/131), preserving contributor credit. |
 | **[Remotion](https://github.com/remotion-dev/remotion)** | Added **Copy context for agents** to folder menus in Remotion Studio ([#11277](https://github.com/remotion-dev/remotion/pull/11277)). |
+
+### In progress
+
+| Project | Work |
+|---|---|
+| **[Kuna](https://github.com/Noelo-Lab/kuna)** | `kuna-verify` differential semantic checker comparing machine code against decompiled IR ([#1714](https://github.com/Noelo-Lab/kuna/pull/1714), [#1830](https://github.com/Noelo-Lab/kuna/pull/1830)) and SLEIGH processor-spec documentation ([#1766](https://github.com/Noelo-Lab/kuna/pull/1766)). |
+| **[DecBench](https://github.com/Noelo-Lab/decbench)** | C++ evaluation pipeline & strict-mode GED support ([#128](https://github.com/Noelo-Lab/decbench/pull/128)) and `byte_match` / compile-rate toolchain-sensitivity analysis ([#127](https://github.com/Noelo-Lab/decbench/issues/127)). |
 
 [All pull requests](https://github.com/pulls?q=is%3Apr+author%3Asjkim1127)
 
